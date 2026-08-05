@@ -1,49 +1,51 @@
-# 🚀 C++ Advanced OOP & Security-Focused Projects
+# 💻 C++ OOP Projects & Systems
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+<p align="left">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Paradigm-OOP-orange?style=for-the-badge" alt="OOP" />
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Systems-red?style=for-the-badge" alt="Cybersecurity" />
-  <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Architecture-Modular%20(.h%2F.cpp)-blue?style=for-the-badge" alt="Modular" />
 </p>
-
----
 
 ## 📌 Overview
 
-Welcome to my C++ repository! This repository contains robust, modular, and security-oriented console applications built from scratch. The main goal of this codebase is to master core **Object-Oriented Programming (OOP)** principles while building real-world tools that align with my interest in **Cybersecurity & Low-Level Systems**.
+A collection of console-based management systems built using **C++** and **Object-Oriented Programming (OOP)** principles. The focus of this repository is code organization, class interaction, modular structure (`.h` and `.cpp`), and persistent storage using File I/O.
 
 ---
 
-## 🛠 Core OOP Concepts Applied
+## 🛠 Concepts Implemented
 
-- 🔒 **Encapsulation:** Protecting class attributes and exposing controlled interfaces.
-- 🎭 **Abstraction:** Hiding complex implementation details behind clean header interfaces.
-- 🤝 **Friend Functions & Classes:** Controlled access to private members for specialized subsystems.
-- 📁 **File I/O & Data Persistence:** Saving state safely to disk.
-
----
-
-## 🗂 Featured Projects
-
-| Icon | Project Name | Description | Key OOP Features |
-| :---: | :--- | :--- | :--- |
-| 💬 | **Askme System** | A full-fledged Ask/Answer Q&A system (~650 lines). | Encapsulation, Clean Class Relations |
-| 🔐 | **Secure File Vault** | CLI Tool for encrypting/decrypting sensitive text & files. | Abstraction, Friend Classes |
-| 🛡️ | **Cyber Log Analyzer** | System log tracker for detecting suspicious IP activity. | Object Modularization, File Parsing |
-| 💼 | **Employee & Sales System** | Operations & Management system for tracking business records. | Dynamic Array Handling, Encapsulation |
+- **Encapsulation & Data Hiding:** Protecting class attributes via `private` access modifiers and getters/setters.
+- **Abstraction:** Separating declarations (`.h`) from implementation (`.cpp`).
+- **Friend Classes & Functions:** Granting controlled access between closely related subsystem classes.
+- **Modular Project Structure:** Organizing code into multi-file projects rather than single-file scripts.
+- **File I/O:** Reading and writing system state to disk for persistence.
 
 ---
 
-## 📈 Future Enhancements (Roadmap)
+## 🗂 Projects
 
-- [ ] Refactor **Askme System** with advanced inheritance.
-- [ ] Add AES Encryption to **Secure File Vault**.
-- [ ] Implement Socket programming for a **Network Scanner Console**.
-- [ ] Optimize memory usage across all projects.
+| Project | Status | Description | Key Modules / Classes |
+| :--- | :---: | :--- | :--- |
+| **Askme System** | 🟢 Completed | Q&A platform for managing users, questions, and threads (~650 lines). | `User`, `Question`, `QuestionManager` |
+| **Library Borrowing System** | 🟡 In Progress | Tracks books, member profiles, borrowing limits, and delay fines. | `Book`, `User`, `BorrowManager` |
+| **Car Rental System** | ⏳ Planned | Fleet operations, customer management, and rental calculation. | `Car`, `Customer`, `RentalContract` |
+| **Clinic Management System** | ⏳ Planned | Schedules doctor appointments, medical history, and prescriptions. | `Doctor`, `Patient`, `Appointment` |
+| **Supermarket Inventory & POS** | ⏳ Planned | Inventory management, product tracking, and receipt generation. | `Product`, `Inventory`, `Invoice` |
+| **University Management** | ⏳ Planned | Handles student course registration, prerequisites, and GPA. | `Student`, `Course`, `EnrollmentManager` |
 
 ---
 
-<p align="center">
- <i>"Writing code is easy; designing scalable & secure systems is the art."</i> ✨
-</p>
+## 📂 Project Structure Standard
+
+All projects in this repository follow a modular multi-file format:
+
+```text
+ProjectFolder/
+│
+├── Header Files (.h)         --> Declarations & Class Layouts
+│   ├── ClassName.h
+│
+├── Implementation (.cpp)     --> Definition of Functions
+│   ├── ClassName.cpp
+│
+└── main.cpp                  --> Entry Point & CLI Logic
