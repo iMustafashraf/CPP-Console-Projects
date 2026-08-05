@@ -27,7 +27,7 @@ A collection of console-based management systems built using **C++** and **Objec
 | Project | Status | Description | Key Modules / Classes |
 | :--- | :---: | :--- | :--- |
 | **Askme System** | 🟡 Improving | Q&A platform for managing users, questions, and threads (~650 lines). | `User`, `Question`, `QuestionManager` |
-| **Online Book Reader** | 🟢 Completed | Digital reading platform with user sessions, book navigation, and reading history. | `User`, `Book`, `ReadingSession`, `ReaderManager` |
+| **Online Book Reader** | 🟡 In Progress | Digital reading platform with user sessions, book navigation, and reading history. | `User`, `Book`, `ReadingSession`, `ReaderManager` |
 | **Library Borrowing System** | 🟡 In Progress | Tracks books, member profiles, borrowing limits, and delay fines. | `Book`, `User`, `BorrowManager` |
 | **Car Rental System** | ⏳ Planned | Fleet operations, customer management, and rental calculation. | `Car`, `Customer`, `RentalContract` |
 | **Clinic Management System** | ⏳ Planned | Schedules doctor appointments, medical history, and prescriptions. | `Doctor`, `Patient`, `Appointment` |
