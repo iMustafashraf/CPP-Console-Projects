@@ -7,13 +7,11 @@
 </p>
 
 ## 📌 Overview
-
 A collection of console-based management systems built using **C++** and **Object-Oriented Programming (OOP)** principles. The focus of this repository is code organization, class interaction, modular structure (`.h` and `.cpp`), and persistent storage using File I/O.
 
 ---
 
 ## 🛠 Concepts Implemented
-
 - **Encapsulation & Data Hiding:** Protecting class attributes via `private` access modifiers and getters/setters.
 - **Abstraction:** Separating declarations (`.h`) from implementation (`.cpp`).
 - **Friend Classes & Functions:** Granting controlled access between closely related subsystem classes.
@@ -23,10 +21,9 @@ A collection of console-based management systems built using **C++** and **Objec
 ---
 
 ## 🗂 Projects
-
 | Project | Status | Description | Key Modules / Classes |
 | :--- | :---: | :--- | :--- |
-| **Askme System** | 🟡 Improving | Q&A platform for managing users, questions, and threads (~650 lines). | `User`, `Question`, `QuestionManager` |
+| **Askme System** | ✅ Done | Q&A platform for managing users, questions, and threads (~950 lines). | `User`, `Question`, `QuestionManager` |
 | **Online Book Reader** | 🟡 In Progress | Digital reading platform with user sessions, book navigation, and reading history. | `User`, `Book`, `ReadingSession`, `ReaderManager` |
 | **Library Borrowing System** | ⏳ Planned | Tracks books, member profiles, borrowing limits, and delay fines. | `Book`, `User`, `BorrowManager` |
 | **Car Rental System** | ⏳ Planned | Fleet operations, customer management, and rental calculation. | `Car`, `Customer`, `RentalContract` |
@@ -37,7 +34,6 @@ A collection of console-based management systems built using **C++** and **Objec
 ---
 
 ## 📂 Project Structure Standard
-
 All projects in this repository follow a modular multi-file format:
 
 ```text
@@ -50,3 +46,4 @@ ProjectFolder/
 │   ├── ClassName.cpp
 │
 └── main.cpp                  --> Entry Point & CLI Logic
+```
